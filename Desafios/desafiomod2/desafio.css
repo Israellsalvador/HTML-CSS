@@ -1,0 +1,112 @@
+@charset "UFT-8";
+        
+    @media (max-width:700px) {
+       
+    }
+    @media(min-width: 300px) {
+        article {font-size: 1em;}
+    }
+    
+   
+  
+
+        @font-face{
+        
+
+        
+            background-color: aquamarine;
+           font-family:'Idroid';
+           src: url('IDroid Bold.otf') format('opentype'),url('IDroid Bold Italic.otf') format('opentype');  
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 1px;
+            
+
+        }
+        
+        .fonte{
+        
+           font-family:'Idroid';
+           src: url('IDroid Bold.otf') format('opentype'),url('IDroid Bold Italic.otf') format('opentype');
+           font-weight: lighter; 
+           font-size: 30px;
+           color: #1D633A;
+        }
+
+        h3{
+            background:linear-gradient(to right,#87E0AC,#D2F1DC,#E2F8EC,#F2F9F3,#F7FCF8 );
+               font-family:'Idroid';
+               src: url('IDroid Bold.otf') format('opentype'),url('IDroid Bold Italic.otf') format('opentype');
+               font-weight: lighter;
+               color: #1D633A;  
+            }
+        header{
+            background: linear-gradient(to bottom, #239555,#17723F,#085329,#064621,#033E19);
+            color: aliceblue;
+            padding: 37px ; 
+                         
+        }
+           
+        .center{
+            
+            font-family:'bebasneue'; src: url('bebasneue.ttf.ttf') format('truetype'),url('bebasneue.ttf.ttf') format('truetype');
+            text-align: center;
+            font-weight: lighter;
+            text-shadow: 2px 2px 4px #01270f;
+            
+            
+        }
+
+        article{
+            margin: 20px;
+        }
+
+        nav{
+            margin-top: 20px;
+            height: 4px;
+        }
+        
+        nav a {
+            
+            
+            margin-bottom: 5px;
+            color: #239555;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bolder;
+            -webkit-transition: 0.5s ease-out;
+       -moz-transition: 0.5s ease-out;
+       -o-transition: 0.5s ease-out;
+       -ms-transition:0.5s ease-out;
+       border: 5px;
+       border-radius: 5px;
+        }
+
+       a:hover{
+        color: rgb(27, 31, 27);
+        background-color:#239555;
+        padding: 3px;
+        border: 1px;   
+        
+    }
+         
+        .destacar{
+            background-color:#87E0AC ;
+            text-decoration: none;
+            text-decoration:none;
+        }
+        
+        
+        
+        
+        
+        
+      
+        
+
+    
+    
+
+
